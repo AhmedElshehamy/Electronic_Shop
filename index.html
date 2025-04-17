@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="Css/bootstrap.css" />
+        <title>Electronic Store</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+
+            <nav class="top-nav d-flex justify-content-between">
+                <p class="mt-3 text-uppercase ms-3">Welcome To Our Shop</p>
+                <div class="icons me-2 mt-3">
+                    <a
+                        href="login.html"
+                        class="text-decoration-none text-black"
+                    >
+                        <img src="images/register.png" class="pe-1" alt="" />
+                        Login
+                    </a>
+                    <a
+                        href="register.html"
+                        class="text-decoration-none text-black"
+                    >
+                        <img src="images/register.png" class="pe-1" alt="" />
+                        Register
+                    </a>
+                </div>
+            </nav>
+
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand m-2 me-5 fw-bold" href="#">Electronic<span> Shop</span></a>
+                    <button
+                        class="navbar-toggler "
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll"
+                        aria-controls="navbarScroll"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        style="width: 60px;"
+                    >
+                        <span>
+                            <img src="images/menu.png" class="w-100" alt="">
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul
+                            class="navbar-nav me-auto my-2 my-lg-0"
+                            style="--bs-scroll-height: 100px"
+                        >
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Categories</a>
+                                </a>
+                                <ul class="dropdown-menu" style="background-color:  rgb(67, 0, 86) ;">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Smart Phone</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Smart Phone</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Cameras</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >AC</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Smart Watch</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Head Phone</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >LapTop</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >PC Monitor</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link disabled"
+                                    aria-disabled="true"
+                                    >About</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link disabled"
+                                    aria-disabled="true"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input
+                                class="form-control me-2 rounded-5"
+                                type="search"
+                                placeholder="Search"
+                                aria-label="Search"
+                                style="border: 2px solid #9292da;"
+                            />
+                            <button
+                                class="btn btn-outline-success rounded-5"
+                                type="submit"
+                                style="background-color: rgb(255, 200, 0); color: white;"
+                            >
+                                Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <section class="d-flex flex-lg-row justify-content-md-center  ">
+                <div class="first-item mt-2 ms-4 mb-5 col-md-6 ">
+                    <h1><span>Electronic Products </span><br>
+                        Up To <span class="parecnt">50%</span> Off</h1>
+                        <p >
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, saepe <br>
+Lorem                       ipsum dolor sit amet consectetur.
+                        </p>
+                        <button >Shop Now</button>
+                </div>
+                <div class="second-item mb-5 col-md-6">
+                    <img src="images/background.png" class="img-fluid" alt="">
+                </div>
+            </section>
+            <div class="container " id="other-cards">
+                <h1 class="text-center mb-4">Product</h1>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/p6.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Iphone 13 pro</h5>
+                              <p class="card-text text-center mb-4">Lorem ipsum dolor sit amet.</p>
+                              <div class="star text-center">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                              </div>
+                              <h2>
+                                $1000
+                                <span><li class="fa-solid fa-cart-shopping"></li></span>
+                              </h2>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/a1.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Airpods</h5>
+                              <p class="card-text text-center mb-4">Lorem ipsum dolor sit amet.</p>
+                              <div class="star text-center">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                              </div>
+                              <h2>
+                                $100
+                                <span><li class="fa-solid fa-cart-shopping"></li></span>
+                              </h2>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/laptop2.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Laptop
+                            </h5>
+                              <p class="card-text text-center mb-4">Lorem ipsum dolor sit amet.</p>
+                              <div class="star text-center">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                              </div>
+                              <h2>
+                                $200
+                                <span><li class="fa-solid fa-cart-shopping"></li></span>
+                              </h2>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/t1.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Ipad</h5>
+                              <p class="card-text text-center mb-4">Lorem ipsum dolor sit amet.</p>
+                              <div class="star text-center">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                              </div>
+                              <h2>
+                                $300
+                                <span><li class="fa-solid fa-cart-shopping"></li></span>
+                              </h2>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/w1.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Smart Watch</h5>
+                              <p class="card-text text-center mb-4">Lorem ipsum dolor sit amet.</p>
+                              <div class="star text-center">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                              </div>
+                              <h2>
+                                $50.60
+                                <span><li class="fa-solid fa-cart-shopping"></li></span>
+                              </h2>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/pcm1.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">PC Moniter</h5>
+                              <p class="card-text text-center mb-4">Lorem ipsum dolor sit amet.</p>
+                              <div class="star text-center">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                              </div>
+                              <h2>
+                                $600
+                                <span><li class="fa-solid fa-cart-shopping"></li></span>
+                              </h2>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/phone1.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">iPhone x</h5>
+                              <p class="card-text text-center mb-4">Lorem ipsum dolor sit amet.</p>
+                              <div class="star text-center">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                              </div>
+                              <h2>
+                                $500
+                                <span><li class="fa-solid fa-cart-shopping"></li></span>
+                              </h2>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="images/h1.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Headphone</h5>
+                              <p class="card-text text-center mb-4">Lorem ipsum dolor sit amet.</p>
+                              <div class="star text-center">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                              </div>
+                              <h2>
+                                $60
+                                <span><li class="fa-solid fa-cart-shopping"></li></span>
+                              </h2>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="card col-md-5 py-3 col-12 flex-grow-0 flex-shrink-0  flex-md-grow-1 flex-md-shrink-1  me-0 ms-2 me-md-3 flex-fill h-50 item-card"  style="background-color: #a9a9a92b; height: 305px !important; " >
+                        <img src="images/c1.png" class="card-img-top" alt="...">
+                        <div class="card-img-overlay mt-4 ms-2">
+                            <h3 class="mb-3">Best Headphone</h3>
+                            <h5 class="mb-2">Latest Collection</h5>
+                            <p class="mt-3 fs-5">Up To 50% Off</p>
+                            <button class="bg-black px-3 py-1 " style="border-style: none; color: white;">Show Now</button>
+                        </div>
+                      </div>
+                      
+                    <div class="card col-md-5 py-3 col-12 flex-grow-0 flex-shrink-0 flex-md-grow-1 flex-md-shrink-1  ms-2 mt-5 mt-md-0 ms-md-3 flex-fill h-50 item-card" style="background-color: #a9a9a92b; height: 305px !important; " >
+                        <img src="images/c2.png" class="card-img-top " alt="...">
+                        <div class="card-img-overlay mt-4 ms-2">
+                            <h3 class="mb-3">Best Headphone</h3>
+                            <h5 class="mb-2">Latest Collection</h5>
+                            <p class="mt-3 fs-5">Up To 50% Off</p>
+                            <button class="bg-black px-3 py-1 " style="border-style: none; color: white;">Show Now</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <section class="d-flex flex-lg-row justify-content-md-center mt-5  ">
+                <div class="first-item mt-2 ms-4 mb-5 col-md-6 ">
+                    <h1><span>Electronic Products </span><br>
+                        Up To <span class="parecnt">50%</span> Off</h1>
+                        <p >
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, saepe <br>
+Lorem                       ipsum dolor sit amet consectetur.
+                        </p>
+                        <button >Shop Now</button>
+                </div>
+                <div class="second-item mb-5 col-md-6">
+                    <img src="images/background.png" class="img-fluid" alt="">
+                </div>
+            </section>
+
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./images/pr1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Washion Machine</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                          </div>
+                        <div class="my-2">
+                            <h2 class="ms-4 mytext">$100.50 <span class="float-end me-4"><li class="fa-solid fa-cart-shopping"></li></span></h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./images/pr2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">AC</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                          </div>
+                        <div class="my-2">
+                            <h2 class="ms-4 mytext">$500<span class="float-end me-4"><li class="fa-solid fa-cart-shopping"></li></span></h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./images/pr3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Microwave Oven</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                          </div>
+                        <div class="my-2">
+                            <h2 class="ms-4 mytext">$200.30<span class="float-end me-4"><li class="fa-solid fa-cart-shopping"></li></span></h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./images/pr4.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Fridge</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                          </div>
+                        <div class="my-2 ">
+                          <h2 class="ms-4 mytext">$300 <span class="float-end me-4"><li class="fa-solid fa-cart-shopping"></li></span></h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="container mt-0">
+                <section class="row row-cols-1 row-cols-md-2 g-4 g-sm-3 bg-transparent" id="other">
+                    <div class="col col-lg-4">
+                        <div class="card" style="border-style: none;">
+                            <img src="./images/c3.png" class="card-img" alt="...">
+                            <div class="card-img-overlay ">
+                              <h5 class="card-title">Home Gadget</h5>
+                              <p class="card-text">Latest collection Up To 50% Off</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="card second-child" style="border-style: none;">
+                            <img src="./images/c4.png" class="card-img" alt="...">
+                            <div class="card-img-overlay ">
+                              <h5 class="card-title">Gaming Gadget</h5>
+                              <p class="card-text">Latest collection Up To 50% Off</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="card third-child" style="border-style: none;">
+                            <img src="./images/c5.png" class="card-img" alt="...">
+                            <div class="card-img-overlay ">
+                              <h5 class="card-title">Home Gadget</h5>
+                              <p class="card-text">Latest collection Up To 50% Off</p>
+                            </div>
+                          </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="container bg-transparent mb-5" style="height: 150vh;" id="second-other-item">
+              <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/pr5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <div class="text-center mb-3">
+                      <h5 class="card-title">Fan</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                      <div class="star text-center">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>
+                      <div class="my-2">
+                        <h2 class="ms-3 mytext">$150.25<span class="float-end me-3"><li class="fa-solid fa-cart-shopping"></li></span></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/pr6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <div class="text-center mb-3">
+                      <h5 class="card-title">Fridge</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                      <div class="star text-center">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>
+                      <div class="my-2">
+                        <h2 class="ms-3 mytext">$1500<span class="float-end me-3"><li class="fa-solid fa-cart-shopping"></li></span></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/pr7.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <div class="text-center mb-3">
+                      <h5 class="card-title">Gaming PC</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                      <div class="star text-center">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>
+                      <div class="my-2">
+                        <h2 class="ms-3 mytext">$500.60<span class="float-end me-3"><li class="fa-solid fa-cart-shopping"></li></span></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/pr8.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <div class="text-center mb-3">
+                      <h5 class="card-title">Moniter</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                      <div class="star text-center">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>
+                      <div class="my-2">
+                        <h2 class="ms-3 mytext">$250<span class="float-end me-3"><li class="fa-solid fa-cart-shopping"></li></span></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row row-cols-1 row-cols-md-4 g-4 mt-3">
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/pr9.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <div class="text-center mb-3">
+                      <h5 class="card-title">Smart Watch</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                      <div class="star text-center">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>
+                      <div class="my-2">
+                        <h2 class="ms-3 mytext">$30.20<span class="float-end me-3"><li class="fa-solid fa-cart-shopping"></li></span></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/pr10.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <div class="text-center mb-3">
+                      <h5 class="card-title">Power Bank</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                      <div class="star text-center">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>
+                      <div class="my-2">
+                        <h2 class="ms-3 mytext">$100.50<span class="float-end me-3"><li class="fa-solid fa-cart-shopping"></li></span></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/pr11.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <div class="text-center mb-3">
+                      <h5 class="card-title">Gaming Mouse</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                      <div class="star text-center">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>
+                      <div class="my-2">
+                        <h2 class="ms-3 mytext">$30<span class="float-end me-3"><li class="fa-solid fa-cart-shopping"></li></span></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/pr12.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <div class="text-center mb-3">
+                      <h5 class="card-title">Joysticks</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                      <div class="star text-center">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>
+                      <div class="my-2">
+                        <h2 class="ms-3 mytext">$150<span class="float-end me-3"><li class="fa-solid fa-cart-shopping"></li></span></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div class="container" style="text-align: center;" id="contianer-item">
+              <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                  <div>
+                    <i class="fa-solid fa-cart-shopping" style="font-size: 32px;color: black;"></i>
+                    <div class="card-body">
+                      <h3 style="margin-top: 0;margin-bottom: .5rem;font-weight: 500;line-height: 1.2;">Free Shipping</h3>
+                      <p style="margin-top: 0;margin-bottom: 1rem;">On order over $1000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div >
+                    <i class="fa-solid fa-rotate-left" style="font-size: 32px;color: black;"></i>
+                    <div class="card-body">
+                      <h3 style="margin-top: 0;margin-bottom: .5rem;font-weight: 500;line-height: 1.2;">Free Returns</h3>
+                      <p style="margin-top: 0;margin-bottom: 1rem;">Within 30 days</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div >
+                    <i class="fa-solid fa-truck" style="font-size: 32px;color: black;"></i>
+                    <div class="card-body">
+                      <h3  style="margin-top: 0;margin-bottom: .5rem;font-weight: 500;line-height: 1.2;">Fast Delivery</h3>
+                      <p style="margin-top: 0;margin-bottom: 1rem;">World Wide</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div>
+                    <i class="fa-solid fa-thumbs-up" style="font-size: 32px;color: black;"></i>
+                    <div class="card-body">
+                      <h3 style="margin-top: 0;margin-bottom: .5rem;font-weight: 500;line-height: 1.2;">Big choice</h3>
+                      <p style="margin-top: 0;margin-bottom: 1rem;">Of products</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container" id="newslate">
+              <h3 class="text-center">Subscribe To The Electronic Shop For Latest upload.</h3>
+              <div class="input d-flex justify-content-center mt-3">
+                <input type="text" class="me-5 w-50" placeholder="Enter your email">
+                <button type="submit" class="w-25 p-2 rounded-2" style="cursor: pointer;background-color: #ffc800; border-style: none;color: white;letter-spacing: 3px;font-weight: bold;text-shadow: 0px 0px 1px black;" >Subscribe</button>
+              </div>
+            </div>
+            <div class="upTo">
+              <i class="fa-solid fa-angle-up"></i>
+            </div>
+        <script src="Js/bootstrap.bundle.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
